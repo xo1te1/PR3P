@@ -1,6 +1,6 @@
-def power(b, e):
-    return b if e == 1 else b * power(b, e - 1)
+def power(с,s):
+    return c if s == 1 else c * power(c, s - 1)
     
-b = int(input("Число: "))
-e = int(input("Степінь: "))
-print(f"{b}^{e} = {power(b, e)}")
+c = int(input("Число: "))
+s = int(input("Степінь: "))
+print(f"{c}^{s} = {power(c, s)}")
